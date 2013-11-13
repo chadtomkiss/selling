@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Bitter", Georgia, Times, "Times New Roman", serif;
+    font-weight: normal;
+    color: #252525;
+}
+
+p {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+p, li {
+    font-family: 'Source Sans Pro';
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.intro {
+    margin: 30px 0px 30px 45px;
+}
+
+.items {
+    margin: 0 auto;
+    width: 90%;
+    clear: both;
+}
+
+.item {
+    margin-bottom: 25px;
+    position: relative
+}
+
+.item .title {
+    font-weight: normal;
+}
+
+.item .product {
+    float: left;
+    width: 450px;
+    margin-right: 20px;
+}
+
+.item .details {
+    width: 350px;
+}
+
+.item .details p {
+    margin: 10px 0;
+    width: 300px;
+}
+
+.item .tweet {
+    position: absolute;
+    bottom: 5px;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
