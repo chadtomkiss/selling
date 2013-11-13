@@ -77,6 +77,10 @@ hr {
     bottom: 5px;
 }
 
+.sold {
+    text-decoration: line-through
+}
+
 .left {
     float: left;
 }
